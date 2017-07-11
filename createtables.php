@@ -12,10 +12,10 @@
     require '/var/www/html/vendor/autoload.php';
    // use Aws\MyTestlab\MyTestlabClient;
     
-    $client = factory(array(
-        'region' => 'us-east-1b',  // replace with your desired region visit http://docs.aws.amazon.com/general/latest/gr/rande.html to get your regions.
-        'version' => '2012-08-10' // Now needs a version
-    ));
+    //$client = factory(array(
+      //  'region' => 'us-east-1b',  // replace with your desired region visit http://docs.aws.amazon.com/general/latest/gr/rande.html to get your regions.
+        //'version' => '2012-08-10' // Now needs a version
+    //));
     
     $tableNames = array();
     
