@@ -24,7 +24,7 @@
 
     $client = DynamoDbClient::factory(array(
 
-        'region' => 'eu-west-1',  // replace with your desired region
+        'region' => 'us-east-1b',  // replace with your desired region
 
         'version' => '2012-08-10' // Now needs a version
 
