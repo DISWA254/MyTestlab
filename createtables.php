@@ -28,7 +28,7 @@
 
     $client = DynamoDbClient::factory(array(
 
-        'region' => 'eu-west-1',  // replace with your desired region visit http://docs.aws.amazon.com/general/latest/gr/rande.html to get your regions.
+        'region' => 'us-east-1b',  // replace with your desired region visit http://docs.aws.amazon.com/general/latest/gr/rande.html to get your regions.
 
         'version' => '2012-08-10' // Now needs a version
 
